@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="init()">
     <div class="container-fluid text-center blurred-background">
         <h1 id="titulo" >Tiendita</h1>
     </div>
@@ -19,9 +19,9 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-4 fuente-pix" >
+            <div class="col-4 fuente-pix mar20" >
                 <form>
-                    <select class="form-select form-select-l mb-5 " >
+                    <select class="form-select form-select-l mb-5" >
                         <option  selected>Open this select menu</option>
                         <option  value="1">One</option>
                         <option  value="2">Two</option>
@@ -30,10 +30,12 @@
                 </form>
             </div>
             <div class="col-2"></div>
-            <div class="col-4 fuente-pix">
+            <div class="col-4 fuente-pix mar20">
                 <p>Carrito</p>
             </div>
         </div>
+
+        <div class="row" id="productos"></div>
 
     </div>
     
