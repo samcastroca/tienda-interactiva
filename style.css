@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: rgb(241, 207, 166);
 }
 
 .blurred-background {
@@ -13,6 +13,11 @@ body {
     font-size: 52px !important;
     font-family: "Pixelify Sans", sans-serif;
     color: rgb(255, 255, 255);
+
+}
+
+.fuente-pix, .fuente-pix select, .fuente-pix option {
+    font-family: "Pixelify Sans", sans-serif;
 
 }
 
